@@ -1,0 +1,28 @@
+{
+	"name": "messenger example",
+	"description": "messenger example",
+	"private": true,
+	"author": {
+		"name": "Mohammed M",
+		"email": "mohme.m312@gmail.com"
+	},
+	"contributors": [
+		{
+			"name": "Mohammed M",
+			"email": "mohme.m312@gmail.com"
+		}
+	],
+	"scripts": {
+		"test": "grunt test",
+		"build": "grunt"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"grunt-bower-install-simple": "~0.9.2",
+		"grunt-cli": "~0.1.13",
+		"grunt-contrib-jshint": "^0.7.2",
+		"grunt-contrib-watch": "^0.5.3",
+		"grunt-mocha-phantomjs": "~0.4.3"
+	}
+}
